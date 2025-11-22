@@ -90,8 +90,8 @@
     @apply bg-background text-foreground;
   }
 
-  /* Add marquee animation for footer terminal effect */
-  @keyframes marquee {
+  /* Improved carousel animation for smooth infinite sliding */
+  @keyframes marquee-slide {
     0% {
       transform: translateX(0);
     }
@@ -100,8 +100,8 @@
     }
   }
 
-  .animate-marquee {
-    animation: marquee 30s linear infinite;
+  .animate-marquee-slide {
+    animation: marquee-slide 25s linear infinite;
   }
 
   /* Typewriter cursor effect */
